@@ -1,0 +1,13 @@
+/*
+objref ic_step
+ic_step = new IClamp(0.5)
+ic_step.del = 1000
+ic_step.dur = 2000
+ic_step.amp = 0
+*/
+
+objref ic_step
+ic_step = new IClamp(0.5)
+ic_step.del = 1000
+ic_step.dur = 599
+ic_step.amp = 0
