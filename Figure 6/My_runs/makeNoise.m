@@ -96,7 +96,7 @@ csvwrite(str1, y_filt)
 
 current=cd;
 %cd('/Users/scottrich/OneDrive - UHN/3) NEURON stuff/Human Cell');
-cd('\Users\Happy\Desktop\KrembilResearch\Coding\Currentscape_HumanCellModel');
+cd('\Users\Happy\Desktop\KrembilResearch\Coding\Currentscape_Eobard_HumanCellModel');
 if ~isempty(fname)
     str1=sprintf('%s_%d_%d.csv', fnameold, sigma, tau);
     fname = sprintf('%s_%d_%d.dat', fnameold, sigma, tau);
